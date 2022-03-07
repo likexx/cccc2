@@ -15,6 +15,6 @@ message HelloReply {
 
 service cccc {
     rpc SayHello (HelloRequest) returns (HelloReply);
-    rpc TestFunc (HelloRequest) returns (HelloReply);
+    rpc SayHello22 (HelloRequest) returns (HelloReply);
 }
 
